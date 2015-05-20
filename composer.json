@@ -1,0 +1,25 @@
+{
+    "name": "stratedge/lumen-pretty-json",
+    "description": "An extra ResponseFactory option that uses JSON_PRETTY_PRINT by default for JSON responses.",
+    "keywords": ["framework", "laravel", "lumen", "json", "pretty", "print"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/stratedge/lumen-pretty-json/issues",
+        "source": "https://github.com/stratedge/lumen-pretty-json"
+    },
+    "authors": [
+        {
+            "name": "Jarret Byrne",
+            "email": "jarret@solvomedia.com"
+        }
+    ],
+    "require": {
+        "illuminate/contracts": "5.0.*",
+        "illuminate/http": "5.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stratedge\\LumenPrettyJson\\": "src/"
+        }
+    }
+}
