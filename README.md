@@ -1,6 +1,6 @@
 # lumen-pretty-json
 
-A clean and simple way to have JSON output through Lumen's ResponseFactory class use JSON_PRETTY_PRINT by default. No requirement to pass a status and headers just to then set JSON options. Handy for APIs.
+A clean and simple way to have JSON output through Lumen's ResponseFactory class use JSON_PRETTY_PRINT by default. No requirement to pass a status and headers just to then set the JSON option for JSON_PRETTY_PRINT. Handy for APIs where all the returned content is JSON.
 
 ## Usage Examples
 

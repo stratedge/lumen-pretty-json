@@ -1,8 +1,6 @@
 <?php
 namespace Stratedge\LumenPrettyJson;
 
-use Illuminate\Http\JsonResponse;
-use Illuminate\Contracts\Support\Arrayable;
 use Laravel\Lumen\Http\ResponseFactory as BaseResponseFactory;
 
 class ResponseFactory extends BaseResponseFactory {
