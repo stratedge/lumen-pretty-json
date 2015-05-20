@@ -18,10 +18,6 @@ class ResponseFactory extends BaseResponseFactory {
      */
     public function json($data = array(), $status = 200, array $headers = array(), $options = JSON_PRETTY_PRINT)
     {
-        if ($data instanceof Arrayable) {
-            $data = $data->toArray();
-        }
-
-        return new JsonResponse($data, $status, $headers, $options);
+        return parent::json($data, $status, $headers, $options);
     }
 }
